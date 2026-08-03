@@ -13,13 +13,14 @@
 
 ### About
 
-CS student in the **Turing Scholars** honors program at **UT Austin**. Previously
-**SWE/AI Intern** at **Sony × University at Buffalo Visual Computing Lab**, where I worked on
-instance segmentation for medical microscopy.
+CS student in the **Turing Scholars** honors program at **UT Austin**. Currently **SWE/AI Intern**
+at **Sony × University at Buffalo Visual Computing Lab**, working on real-time basketball action
+recognition for camera autofocus.
 
-I work mostly on applied computer vision and machine learning, with a background in competitive
-programming and four years of competition robotics. Most of what I build these days is in
-private repos — the public ones here are my research and robotics work.
+I work on applied computer vision and machine learning — medical image segmentation,
+uncertainty-aware models, and time-series anomaly detection — with a background in competitive
+programming and four years of competition robotics. Most of what I build now is in private repos;
+the public ones here are my research and robotics work.
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -27,6 +28,7 @@ private repos — the public ones here are my research and robotics work.
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
 </p>
@@ -35,14 +37,26 @@ private repos — the public ones here are my research and robotics work.
 
 ### Research
 
-| Area | Venue | Write-up |
+| Lab | Work | Result |
 |---|---|---|
-| Medical image segmentation | Presented at **ASN Kidney Week 2025** | [TRIMS-results](https://github.com/SuchayK/TRIMS-results) |
-| Uncertainty-aware classifiers for autonomous driving | **IEEE IEMDC 2025** poster | [IDK-classifiers-results](https://github.com/SuchayK/IDK-classifiers-results) |
-| Air-quality anomaly detection (LSTM/CNN) | — | — |
+| **Sony × UB Visual Computing Lab** | Real-time basketball action recognition for camera autofocus — YOLOv8 + transformers, multi-player spatiotemporal modeling | 94% accuracy; firmware-ready proof of concept tested at a WNBA game |
+| **UH Mohan Lab** | [Segmentation of renal tubules and immune cells](https://github.com/SuchayK/TRIMS-results) in lupus nephritis biopsies — Detectron2 Mask R-CNN | ~90% accuracy on 3,000+ labeled images |
+| **UH Real-Time Systems Lab** | [Uncertainty-aware classifiers](https://github.com/SuchayK/IDK-classifiers-results) that abstain rather than answer wrong — Waymo/nuScenes, DuckieTown + SUMO | 37% fewer false positives |
+| **Stanford S3L / LIMESS** | [Anomaly detection in EPA air-quality series](https://github.com/SuchayK/air-quality-anomaly-detection) — LSTM vs. CNN on PM2.5 and ozone | AUC 1.0, up to 99.87% accuracy |
+| **Ohio State IVCL × Nike** | Predicting image memorability — CNN feature extraction over visual and linguistic features | 20,000+ labeled images + human recall studies |
+| **UH Ergodic Theory & Dynamical Systems** | [Conjugate Gradient methods for sparse systems](https://github.com/SuchayK/conjugate-gradient-sparse) — convergence, stability, preconditioning | Published on TechRxiv |
 
-<sub>The results repos describe the approach and evaluation. Datasets, lab code and trained
-weights aren't mine to publish — happy to walk through the numbers directly.</sub>
+<sub>Where a repo is linked, it holds the method write-up or the implementation. Lab datasets and
+proprietary code aren't mine to publish — happy to walk through the details directly.</sub>
+
+---
+
+### Publications
+
+- **Exploring the Numerical Stability and Efficiency of Conjugate Gradient Methods for Sparse Systems** — *TechRxiv*
+- **TRIMS: A Novel Deep Learning Model for Segmentation of Renal Tubules and Immune Cells in Immunostained Biopsies** — *Journal of Imaging* (in progress) · presented at **ASN Kidney Week 2025**
+- **Implementing Dynamic User Equilibrium Through "I Don't Know" Classifiers for Autonomous Driving Using DuckieTown and SUMO** — *IEEE RTSS 2025* (in progress) · preliminary at **IEEE IEMDC 2025**
+- **Deep Learning-Based Anomaly Detection in Air Quality Monitoring: LSTM and CNN Models for PM2.5 and Ozone** — in progress
 
 ---
 
@@ -56,26 +70,24 @@ HackSprint #5 — I worked across the scene-understanding pipeline, rendering, c
 and job API, and produced the sponsor asset library the compositor draws from.
 *(Team repo, hosted on a teammate's account.)*
 
-**[Detectron2-Immune-Cells](https://github.com/SuchayK/Detectron2-Immune-Cells)** — Mask R-CNN
-instance segmentation of immune cells in lymph node microscopy. Research with the UB Visual
-Computing Lab.
+**[greenAcres](https://github.com/SuchayK/greenAcres)** — Pick a point on a map and get the crops
+that will actually grow there. Live climate data into a Keras classifier over 22 crops, served
+from Flask behind a Leaflet frontend. **1st place, Software Development, Texas TSA State 2025.**
 
 **[Pololu---Robot-Tour](https://github.com/SuchayK/Pololu---Robot-Tour)** — Autonomous 4×4 maze
 navigation on a Pololu 3pi+ 32U4: A\* planning, gyro-corrected odometry, dual PID.
+**2nd place, MIT Science Olympiad National Invitational 2025.**
 
-**[VEXRobot1](https://github.com/SuchayK/VEXRobot1)** — VEX V5 competition robot: 6-motor drive,
-three-encoder odometry, inertial-corrected PID, pneumatics.
-
-**[greenAcres](https://github.com/SuchayK/greenAcres)** — Pick a point on a map and get the crops
-that will actually grow there. Live climate data into a Keras classifier over 22 crops, served
-from Flask behind a Leaflet frontend. **1st place at the Texas TSA State Conference, Top 16 at
-TSA Nationals (2025).**
+**[VEXRobot1](https://github.com/SuchayK/VEXRobot1)** — VEX V5 competition robot (Team 19697Z):
+6-motor drive, three-encoder odometry, inertial-corrected PID, pneumatics.
+**Excellence Award and UIL Texas State 6A Champions, 2025.**
 
 ---
 
 ### Competitions
 
-**USACO Platinum** · **2× AIME qualifier** · **5× VEX Robotics Worlds qualifier**
+**USACO Platinum** · **2× AIME qualifier** · **National Merit Semifinalist** · **4× VEX Robotics
+Worlds qualifier** · **3× FIRST Robotics Worlds qualifier**
 
 ---
 
