@@ -42,7 +42,7 @@ the public ones here are my research and robotics work.
 | **Sony × UB Visual Computing Lab** | Real-time basketball action recognition for camera autofocus — YOLOv8 + transformers, multi-player spatiotemporal modeling | 94% accuracy; firmware-ready proof of concept tested at a WNBA game |
 | **UH Mohan Lab** | [Segmentation of renal tubules and immune cells](https://github.com/SuchayK/TRIMS-results) in lupus nephritis biopsies — Detectron2 Mask R-CNN | ~90% accuracy on 3,000+ labeled images |
 | **UH Real-Time Systems Lab** | [Uncertainty-aware classifiers](https://github.com/SuchayK/IDK-classifiers-results) that abstain rather than answer wrong — Waymo/nuScenes, DuckieTown + SUMO | 37% fewer false positives |
-| **Stanford S3L / LIMESS** | [Anomaly detection in EPA air-quality series](https://github.com/SuchayK/air-quality-anomaly-detection) — LSTM vs. CNN on PM2.5 and ozone | AUC 1.0, up to 99.87% accuracy |
+| **Stanford S3L / LIMESS** | [Anomaly detection in EPA air-quality data](https://github.com/SuchayK/air-quality-anomaly-detection) — LSTM vs. CNN classification against the regulatory AQI threshold | CNN: ROC-AUC 1.00, F1 1.00, zero false positives |
 | **Ohio State IVCL × Nike** | Predicting image memorability — CNN feature extraction over visual and linguistic features | 20,000+ labeled images + human recall studies |
 | **UH Ergodic Theory & Dynamical Systems** | [Conjugate Gradient methods for sparse systems](https://github.com/SuchayK/conjugate-gradient-sparse) — convergence, stability, preconditioning | Published on TechRxiv |
 
