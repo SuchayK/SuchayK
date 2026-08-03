@@ -35,11 +35,14 @@ private repos — the public ones here are my research and robotics work.
 
 ### Research
 
-| Area | Venue |
-|---|---|
-| Medical image segmentation | Presented at **ASN Kidney Week 2025** |
-| Uncertainty-aware classifiers for autonomous driving | **IEEE IEMDC 2025** poster |
-| Air-quality anomaly detection (LSTM/CNN) | — |
+| Area | Venue | Write-up |
+|---|---|---|
+| Medical image segmentation | Presented at **ASN Kidney Week 2025** | [TRIMS-results](https://github.com/SuchayK/TRIMS-results) |
+| Uncertainty-aware classifiers for autonomous driving | **IEEE IEMDC 2025** poster | [IDK-classifiers-results](https://github.com/SuchayK/IDK-classifiers-results) |
+| Air-quality anomaly detection (LSTM/CNN) | — | — |
+
+<sub>The results repos describe the approach and evaluation. Datasets, lab code and trained
+weights aren't mine to publish — happy to walk through the numbers directly.</sub>
 
 ---
 
