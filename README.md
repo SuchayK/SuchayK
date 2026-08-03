@@ -13,7 +13,7 @@
 
 ### About
 
-Incoming CS student in the **Turing Scholars** honors program at **UT Austin**. Previously
+CS student in the **Turing Scholars** honors program at **UT Austin**. Previously
 **SWE/AI Intern** at **Sony × University at Buffalo Visual Computing Lab**, where I worked on
 instance segmentation for medical microscopy.
 
